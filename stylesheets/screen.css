@@ -1,0 +1,66 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;min-width:960px;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+html {font-size:100.01%;}
+body {font-size:75%;color:#222;background:#FFF;font-family:'Lucida Grande', Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#67BAAE;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;color:#999;font-weight:bold;}
+h3 {font-size:1.5em;line-height:2;font-weight:bold;margin-bottom:-0.15em;}
+h5 {font-size:1.35em;line-height:2.35;font-weight:bold;margin-bottom:0;color:#999;font-family:Georgia;}
+p {margin:0 0 1.5em;}
+a{color:#BB6874;text-decoration:none;border-bottom:1px solid #BB6874;}
+a:focus, a:hover {background:#BB6874;text-decoration:none;color:#FFF;text-shadow:none;}
+blockquote {margin:1.5em;color:#666;font-style:italic;}
+strong {font-weight:bold;}
+em, dfn {font-style:italic;}
+dfn {font-weight:bold;}
+sup, sub {line-height:0;}
+abbr, acronym {border-bottom:1px dotted #666;}
+pre {margin:1.5em 0;white-space:pre;}
+pre, code, tt {font:1em 'Andale Mono', 'Lucida Console', monospace;line-height:1.5;}
+li ul, li ol {margin:0;}
+ul, ol {margin:0 1.5em 1.5em 0;padding-left:3.333em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+.title{margin-bottom:1em;}
+#page{width:100%;background:url('../images/bg.png') top repeat-x;}
+#header, #content{margin:0 auto;width:910px;overflow:hidden;}
+#header {background: url('../images/header.png') top no-repeat;text-align:center;height:378px;margin-bottom:1.5em;}
+#header #language{float:right;margin-top:1em;}
+#header #language li {display:inline;margin-left:5px;}
+#header #language a{color:#67BAAE;font-size:12px;border-color:#67BAAE;}
+#header #language a:hover{color:#FFF;background:#67BAAE;}
+#header #language .current{border:none;color:#FFF;}
+#header #language .current:hover{color:#FFF;background:#67BAAE;border-bottom:1px solid #67BAAE;}
+#content{margin-bottom:1.5em;}
+#services{overflow:hidden;margin-bottom:3em;}
+#services .summary{width:512px;float:left;margin-right:48px;}
+#services .summary p{font-size:2em;margin-bottom:0.75em;font-family:'Georgia',serif;color:#888;}
+#services #aside{float:right;width:348px;}
+#services #aside p{font-size:1.1em;line-height:1.8;}
+#team{width:100%;clear:both;overflow:hidden;}
+#team .summary{font-size:1.1em;line-height:1.8;}
+#team hr{clear:left;margin:0;margin:0;border:none;border-top:1px solid #EEE;}
+#team .member{float:left;margin-right:25px;width:429px;padding-bottom:1.5em;padding-top:1em;margin-bottom:0;}
+#team .member img{float:left;margin: 1em 1.5em 1em 0;border:2px solid #000;}
+#team .member ul{margin:0;padding:0;}
+#team .member li{display:inline;margin-right:4px;}
+#team .member li a{background:#DDD url('../images/button.png') repeat-x;padding:2px 12px;color:#444;text-shadow:#FFF -1px 1px 2px;border:1px solid #BBB;text-decoration:none;-moz-border-radius:16px;-khtml-border-radius:16px;-webkit-border-radius: 16px;}
+#team .member li a:hover{background:#CDCDCD;text-shadow:none;}
+#team .even{margin-right:0;padding-left:25px;border-left:1px solid #EEE;margin-bottom:0;}
+#footer {margin:0 auto;overflow:hidden;background:#000;}
+#footer #more {background:#DDD url('../images/footer.png') repeat-x;overflow:hidden;padding-top:1.5em;}
+#footer #contact{margin:0 auto;width:910px;padding:1.5em 0;}
+#footer #contact h2{color:#999;font-weight:bold;}
+#footer #contact p{font-size:1.15em;line-height:1.5;color:#555;text-shadow:#FFF 1px 1px 2px;}
+#footer #contact a{color:#333;border-color:#333;font-weight:bold;}
+#footer #contact a:hover{background:#333;color:#FFF;}
+#footer #credits {margin:0 auto;width:910px;color:#FFF;padding:2em 0 0.5em 0;color:#333;}
+#footer #credits img{vertical-align:text-bottom;margin-right:5px;}
+#footer #credits a{color:#444;border:none;}
+#footer #credits a:hover{border:none;background:none;color:#CCC;}
+/*body{background:url('../images/grid.png');}*/
+::-moz-selection{background:#67BAAE;color:#FFF;}
+::selection {background:#67BAAE;color:#FFF;text-shadow:none;}
